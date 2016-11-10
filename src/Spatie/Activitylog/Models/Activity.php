@@ -2,11 +2,11 @@
 
 namespace Spatie\Activitylog\Models;
 
-use Eloquent;
+use Jenssegers\Mongodb\Model as Moloquent;
 use Config;
 use Exception;
 
-class Activity extends Eloquent
+class Activity extends Moloquent
 {
     /**
      * The database table used by the model.
